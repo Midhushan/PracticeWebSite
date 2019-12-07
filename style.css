@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+body{
+   font-family: 'Montserrat', sans-serif;
+}
+
+.textpoke{
+    font-family: 'Baoo Bhai', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+ .header{
+    height: 60vh;
+} 
+
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef ;
+
+}
+
+.logo{
+    height: 48px;
+    padding: 1px 5px;
+}
+
+.maintitle{
+    color: red;
+    width: fit-content;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar-text{
+    font-size: larger;
+    font-style: inherit;
+}
+
+.picture{
+    height: 350px;
+    padding: 5px 50px;
+}
+
+.big-text{
+    font-size: 52px;
+    margin: 20px 0;
+    color: red;
+}
+
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+a.btn-first{
+    background-color: red;
+    color: white;
+
+}
+a.btn-second{
+    background: transparent;
+    border: 1px solid red;
+    color: red;
+}
+
+li a{
+    color: red;
+}
+
+a.btn:hover{
+    background: red;
+    border: none;
+    color: #efefef;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
+
+
+
+a.btn-third{
+    background: transparent;
+    border: 1px solid red;
+    color: red;
+    align-content: flex-end;
+    align-self: right;
+}
+
+.picture2{
+    height: 330px;
+    padding: 5px 50px;
+}
